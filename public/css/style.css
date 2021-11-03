@@ -1,0 +1,165 @@
+h1 {
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  margin: auto;
+}
+
+.maps {
+  font-family: "Roboto", sans-serif;
+  color: #353535;
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 3% 0 3% 0;
+  box-shadow: inset 0px 2px 5px 0px #cfcfcf;
+}
+.maps__input {
+  border: none;
+  background-color: #eaeaea;
+  text-align: center;
+  width: 140px;
+}
+
+.about {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6f6;
+  padding: 10px 0 60px 0;
+}
+.about__content {
+  text-align: center;
+  width: 280px;
+  margin: auto;
+}
+.about h2 {
+  font-weight: bold;
+}
+.about p {
+  color: #4d4d4d;
+  margin-bottom: 40px;
+}
+.about__btn {
+  border-radius: 30px;
+  background-image: linear-gradient(#e571da, #a65ddc);
+  padding: 10px 20px;
+  color: white;
+}
+
+.functioning {
+  font-family: "Roboto", sans-serif;
+}
+.functioning h3 {
+  margin-left: 30px;
+  font-weight: bold;
+}
+.functioning__list {
+  list-style: none;
+  padding-right: 40px;
+}
+.functioning__part {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 2px #ededed;
+}
+.functioning__number {
+  background-color: #9356dc;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  margin: 0px 10px 0px -10px;
+  font-size: xx-small;
+}
+.functioning__icon {
+  margin: 0 20px 0 5px;
+  color: #7e7e7e;
+}
+.functioning__text {
+  font-weight: bold;
+  font-size: small;
+  padding: 5px;
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+  padding: 30px 0 30px 0;
+}
+.restaurants__title {
+  margin-left: 10%;
+  font-size: larger;
+  font-weight: bold;
+}
+.restaurants a {
+  text-decoration: none;
+}
+.restaurants__card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  position: relative;
+}
+.restaurants__image {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.restaurants h4, .restaurants p {
+  margin: auto;
+}
+.restaurants__new {
+  position: absolute;
+  right: 5%;
+  background-color: #99e2d0;
+  color: #0a8d6d;
+  margin-top: 5%;
+  font-size: x-small;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+}
+.restaurants__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  color: black;
+  margin-right: 5px;
+}
+.restaurants__map {
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+.footer {
+  background-color: #353535;
+  color: white;
+  padding: 5% 0 5% 0;
+}
+.footer__title {
+  font-family: "Shrikhand", cursive;
+  margin-left: 10%;
+  font-weight: lighter;
+}
+.footer__list {
+  list-style-type: none;
+  padding: initial;
+  margin-left: 10%;
+  font-family: "Roboto", sans-serif;
+}
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
+.footer__part {
+  margin-bottom: 5px;
+}
+.footer__icon1 {
+  margin-right: 5%;
+}
+.footer__icon2 {
+  margin-right: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */

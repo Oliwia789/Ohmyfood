@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "projet3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliwia789/RutkowskaOliwia_3_01112021.git"
+  },
+  "author": "Oliwia Rutkowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oliwia789/RutkowskaOliwia_3_01112021/issues"
+  },
+  "homepage": "https://github.com/Oliwia789/RutkowskaOliwia_3_01112021#readme"
+}

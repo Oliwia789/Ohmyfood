@@ -1,0 +1,158 @@
+h1 {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    margin: auto;
+}
+.maps {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(53,53,53,255);
+    background-color: rgba(234,234,234,255);
+    text-align: center;
+    padding: 3% 0 3% 0;
+    box-shadow: inset 0px 2px 5px 0px rgba(207,207,207,255);
+    &__input {
+        border: none;
+        background-color: rgba(234,234,234,255);
+        text-align: center;
+        width: 140px;
+    }    
+}
+.about {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(246,246,246,255);
+    padding: 10px 0 60px 0;
+    &__content {
+        text-align: center;
+        width: 280px;
+        margin: auto;
+    }
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        color: rgba(77,77,77,255);
+        margin-bottom: 40px;
+    }
+    &__btn {
+        border-radius: 30px;
+        background-image: linear-gradient(rgba(229,113,218,255),rgba(166,93,220,255));
+        padding: 10px 20px;
+        color: white;
+    }
+}
+.functioning {
+    font-family: 'Roboto', sans-serif;
+    h3 {
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    &__list {
+        list-style: none;
+        padding-right: 40px;
+    }
+    &__part {
+        background-color: rgba(246,246,246,255);
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px 2px rgba(237,237,237,255);
+    }
+    &__number {
+        background-color: rgba(147,86,220,255);
+        color: white;
+        border-radius: 50%;
+        padding: 3px 6px;
+        margin: 0px 10px 0px -10px;
+        font-size: xx-small;
+    }
+    &__icon {
+        margin: 0 20px 0 5px;
+        color: rgba(126,126,126,255);
+    }
+    &__text {
+        font-weight: bold;
+        font-size: small;
+        padding: 5px;
+    }
+}
+.restaurants {
+    background-color: rgba(246,246,246,255);
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0 30px 0;
+    &__title {
+        margin-left: 10%;
+        font-size: larger;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+    }
+    &__card {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: white;
+        position: relative;
+    }
+    &__image {
+        height: 160px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    h4, p {
+        margin: auto;
+    }
+    &__new {
+        position: absolute;
+        right: 5%;
+        background-color: rgba(153,226,208,255);
+        color: rgba(10,141,109,255);
+        margin-top: 5%;
+        font-size: x-small;
+        font-weight: bold;
+        border-radius: 2px;
+        padding: 5px 10px 5px 10px;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        color: black;
+        margin-right: 5px;
+    }
+    &__map {
+        margin-top: 5px;
+        font-size: smaller;
+    }
+}
+.footer {
+    background-color: rgba(53,53,53,255);
+    color: white;
+    padding: 5% 0 5% 0;
+    &__title {
+        font-family: 'Shrikhand', cursive;
+        margin-left: 10%;
+        font-weight: lighter;
+    }
+    &__list {
+        list-style-type: none;
+        padding: initial;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+    &__part {
+        margin-bottom: 5px;
+    }
+    &__icon1 {
+        margin-right: 5%;
+    }
+    &__icon2 {
+        margin-right: 3%;
+    }
+}
