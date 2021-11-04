@@ -262,4 +262,134 @@ h1 {
   font-weight: bold;
 }
 
+@media screen and (min-width: 1020px) {
+  .desktop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desktop-header header {
+    margin-left: 5%;
+  }
+
+  .maps {
+    background-color: white;
+    box-shadow: none;
+    margin-right: 5%;
+    font-size: x-large;
+    padding: 2% 0 2% 0;
+  }
+  .maps input {
+    background-color: white;
+    font-size: large;
+    width: 150px;
+  }
+
+  .about__content {
+    text-align: inherit;
+    padding-left: 5%;
+    width: auto;
+  }
+  .about__content h2 {
+    font-size: xx-large;
+  }
+  .about__content p {
+    font-size: larger;
+    padding-bottom: 1%;
+  }
+  .about__content a {
+    margin-top: 10px;
+    font-size: larger;
+  }
+
+  .functioning h3 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-size: x-large;
+  }
+  .functioning ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .functioning li {
+    padding-right: 3%;
+  }
+  .functioning p {
+    font-size: medium;
+  }
+
+  .restaurants {
+    padding: 30px 0 60px 0;
+  }
+
+  .restaurants__title {
+    margin-left: 5%;
+    font-size: x-large;
+    margin-bottom: 3%;
+  }
+
+  .desktop-restaurants {
+    display: flex;
+    justify-content: space-around;
+  }
+  .desktop-restaurants figure {
+    width: 450px;
+    margin-bottom: 10%;
+  }
+  .desktop-restaurants img {
+    height: 300px;
+  }
+
+  .footer {
+    padding: 3% 0 3% 0;
+  }
+  .footer h3 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-size: x-large;
+  }
+  .footer ul {
+    margin-left: 5%;
+    font-size: larger;
+  }
+  .footer li {
+    margin-bottom: 1%;
+  }
+  .footer__icon1 {
+    margin-right: 20px;
+  }
+  .footer__icon2 {
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .functioning h3 {
+    margin-left: 5%;
+  }
+  .functioning__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .functioning__icon {
+    margin: auto;
+  }
+  .functioning__text {
+    padding: 5px 10px 5px 5px;
+  }
+
+  .restaurants__title {
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .footer__icon1 {
+    margin-right: 20px;
+  }
+
+  .footer__icon2 {
+    margin-right: 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
