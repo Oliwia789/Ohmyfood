@@ -359,7 +359,34 @@ h1 {
     margin-right: 20px;
   }
   .footer__icon2 {
-    margin-right: 10px;
+    margin-right: 20px;
+  }
+
+  .menu-header__title {
+    margin: 30px;
+  }
+  .menu-header__image {
+    height: 400px;
+  }
+
+  .menu__title {
+    justify-content: flex-start;
+  }
+  .menu__name {
+    padding-right: 5%;
+    font-size: xx-large;
+  }
+
+  .meals__part {
+    padding-right: 50%;
+  }
+  .meals__title {
+    margin-right: 94%;
+  }
+
+  .about__btn__modif {
+    padding: 20px 90px;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 481px) {
@@ -385,10 +412,11 @@ h1 {
 
   .footer__icon1 {
     margin-right: 20px;
+    width: 10px;
   }
 
   .footer__icon2 {
-    margin-right: 15px;
+    width: 10px;
   }
 }
 
