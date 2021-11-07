@@ -3,4 +3,8 @@
 }
 .menu__order-btn {
     @include btn(10px 50px);
+    @include desktop {
+        padding: 20px 90px;
+        font-weight: bold;
+    }
 }

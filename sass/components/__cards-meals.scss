@@ -1,0 +1,31 @@
+.meals__card {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px $shadow;
+}
+.meals__card-text {
+    padding: 10px 0 10px 10px;
+    width: 80%;
+    h4 {
+        margin: auto;
+        @include text-hidden
+    }
+    p  {
+       margin: auto; 
+       padding-top: 5px;
+       font-size: smaller;
+       @include text-hidden;
+    }
+}
+.meals__card-price {
+    margin-bottom: 3%;
+    margin-right: 5%;
+    font-size: smaller;
+    color: darken($grey,70%);
+    font-weight: bold;
+}

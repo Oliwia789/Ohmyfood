@@ -1,0 +1,27 @@
+.functioning {
+    margin-bottom: 50px;
+    h3 {
+        margin-left: 30px;
+        font-weight: bold;
+        @include desktop {
+            margin-left: 5%;
+            margin-bottom: 3%;
+            font-size: x-large;
+        }
+        @include tablet {
+            margin-left: 5%;
+        }
+    }
+    &__list {
+        padding-right: 40px;
+        @include desktop {
+            display: flex;
+            justify-content: space-around;
+        }
+        @include tablet {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}

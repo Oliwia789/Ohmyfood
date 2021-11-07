@@ -3,10 +3,23 @@
     text-align: center;
     padding: 3% 0 3% 0;
     box-shadow: inset 0px 2px 5px 0px $shadow;
-    &__input {
+    @include desktop {
+        background-color: white;
+        box-shadow: none;
+        margin-right: 5%;
+        font-size: x-large;
+        padding: 2% 0 2% 0;
+    }
+}
+.maps__input {
         border: none;
         background-color: $grey;
         text-align: center;
         width: 140px;
-    }    
-}
+        @include desktop {
+            background-color: white;
+            font-size: large;
+            width: 150px;
+        }
+}    
+

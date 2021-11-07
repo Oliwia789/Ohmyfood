@@ -1,0 +1,33 @@
+.about {
+    background-color: $light-grey;
+    padding: 10px 0 60px 0;
+    &__content {
+        @include centered;
+        width: 280px;
+        @include desktop {
+            text-align: inherit;
+            padding-left: 5%;
+            width: auto;
+        }
+    }
+    h2 {
+        font-weight: bold;
+        @include desktop {
+            font-size: xx-large;
+        }
+    }
+    p {
+        color: darken($grey,50%);
+        margin-bottom: 40px;
+        @include desktop {
+            font-size: larger;
+            padding-bottom: 1%;
+        }
+    }
+    a {
+        @include desktop  {
+            margin-top: 10px;
+            font-size: larger;
+        }
+    }
+}

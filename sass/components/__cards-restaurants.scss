@@ -1,0 +1,33 @@
+.restaurants__card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+    box-shadow: 2px 2px 10px $shadow;
+    @include desktop {
+        width: 450px;
+        margin-bottom: 10%;
+    }
+}
+.restaurants__image {
+    height: 160px;
+    @include image;
+    border-radius: 10px 10px 0 0;
+    @include desktop {
+        height: 300px;
+    }
+}
+.restaurants__info {
+    @include flex-center;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    margin-right: 5px;
+    h4, p {
+        margin:auto
+    }
+}
+.restaurants__map {
+    margin-top: 5px;
+    font-size: smaller;
+}

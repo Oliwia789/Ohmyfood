@@ -20,11 +20,28 @@ a {
   padding: 3% 0 3% 0;
   box-shadow: inset 0px 2px 5px 0px #cfcfcf;
 }
+@media screen and (min-width: 1020px) {
+  .maps {
+    background-color: white;
+    box-shadow: none;
+    margin-right: 5%;
+    font-size: x-large;
+    padding: 2% 0 2% 0;
+  }
+}
+
 .maps__input {
   border: none;
   background-color: #eaeaea;
   text-align: center;
   width: 140px;
+}
+@media screen and (min-width: 1020px) {
+  .maps__input {
+    background-color: white;
+    font-size: large;
+    width: 150px;
+  }
 }
 
 .about__btn {
@@ -40,39 +57,13 @@ a {
   padding: 10px 50px;
   color: white;
 }
-
-.main-title {
-  text-align: center;
-  margin: auto;
+@media screen and (min-width: 1020px) {
+  .menu__order-btn {
+    padding: 20px 90px;
+    font-weight: bold;
+  }
 }
 
-.about {
-  background-color: #f6f6f6;
-  padding: 10px 0 60px 0;
-}
-.about__content {
-  text-align: center;
-  margin: auto;
-  width: 280px;
-}
-.about h2 {
-  font-weight: bold;
-}
-.about p {
-  color: #6b6b6b;
-  margin-bottom: 40px;
-}
-
-.functioning {
-  margin-bottom: 50px;
-}
-.functioning h3 {
-  margin-left: 30px;
-  font-weight: bold;
-}
-.functioning__list {
-  padding-right: 40px;
-}
 .functioning__part {
   background-color: #f6f6f6;
   display: flex;
@@ -81,6 +72,12 @@ a {
   border-radius: 20px;
   box-shadow: 2px 2px 5px 2px #cfcfcf;
 }
+@media screen and (min-width: 1020px) {
+  .functioning__part {
+    padding-right: 3%;
+  }
+}
+
 .functioning__number {
   background-color: #9356DC;
   color: white;
@@ -89,44 +86,33 @@ a {
   margin: 0px 10px 0px -10px;
   font-size: xx-small;
 }
+
 .functioning__icon {
   margin: 0 20px 0 5px;
   color: #6b6b6b;
 }
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .functioning__icon {
+    margin: auto;
+  }
+}
+
 .functioning__text {
   font-weight: bold;
   font-size: small;
   padding: 5px;
 }
+@media screen and (min-width: 1020px) {
+  .functioning__text {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .functioning__text {
+    padding: 5px 10px 5px 5px;
+  }
+}
 
-.restaurants {
-  background-color: #f6f6f6;
-  padding: 30px 0 30px 0;
-}
-.restaurants__title {
-  margin-left: 10%;
-  font-size: larger;
-  font-weight: bold;
-}
-.restaurants a {
-  text-decoration: none;
-}
-.restaurants__card {
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: white;
-  position: relative;
-  box-shadow: 2px 2px 10px #cfcfcf;
-}
-.restaurants__image {
-  height: 160px;
-  object-fit: cover;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-.restaurants h4, .restaurants p {
-  margin: auto;
-}
 .restaurants__new {
   position: absolute;
   right: 5%;
@@ -138,105 +124,7 @@ a {
   border-radius: 2px;
   padding: 5px 10px 5px 10px;
 }
-.restaurants__info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  color: black;
-  margin-right: 5px;
-}
-.restaurants__map {
-  margin-top: 5px;
-  font-size: smaller;
-}
 
-.footer {
-  background-color: #353535;
-  color: white;
-  padding: 5% 0 5% 0;
-}
-.footer__title {
-  margin-left: 10%;
-  font-weight: lighter;
-  font-size: large;
-}
-.footer__list {
-  padding: initial;
-  margin-left: 10%;
-  font-size: smaller;
-}
-.footer__link {
-  color: white;
-}
-.footer__part {
-  margin-bottom: 5px;
-}
-.footer__icon1 {
-  margin-right: 5%;
-}
-.footer__icon2 {
-  margin-right: 3%;
-}
-
-.menu-header h1 {
-  text-align: center;
-  margin: auto;
-}
-.menu-header__title {
-  display: flex;
-  align-items: center;
-  margin: 0 30px 0 30px;
-}
-.menu-header__icon {
-  color: #6b6b6b;
-}
-.menu-header__image {
-  height: 250px;
-  object-fit: cover;
-  width: 100%;
-}
-
-.menu {
-  background-color: #f6f6f6;
-  border-radius: 30px 30px 0 0;
-  margin-top: -50px;
-  position: relative;
-  padding: 10px 0 60px 0;
-}
-.menu__title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 15% 0 5%;
-}
-.menu__name {
-  font-weight: lighter;
-}
-.menu__icon {
-  font-size: x-large;
-}
-.menu__btn {
-  display: flex;
-  justify-content: center;
-}
-
-.meals {
-  padding: 0 5% 5% 5%;
-}
-.meals__part {
-  margin-bottom: 30px;
-}
-.meals__title {
-  padding-bottom: 5px;
-  margin-right: 90%;
-}
-.meals__title-text {
-  color: #383838;
-  margin: auto;
-  font-weight: 100;
-  font-size: inherit;
-}
 .meals__card {
   background-color: white;
   border-radius: 15px;
@@ -247,6 +135,7 @@ a {
   margin-bottom: 15px;
   box-shadow: 2px 2px 5px #cfcfcf;
 }
+
 .meals__card-text {
   padding: 10px 0 10px 10px;
   width: 80%;
@@ -265,6 +154,7 @@ a {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 .meals__card-price {
   margin-bottom: 3%;
   margin-right: 5%;
@@ -273,162 +163,333 @@ a {
   font-weight: bold;
 }
 
+.restaurants__card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  position: relative;
+  box-shadow: 2px 2px 10px #cfcfcf;
+}
+@media screen and (min-width: 1020px) {
+  .restaurants__card {
+    width: 450px;
+    margin-bottom: 10%;
+  }
+}
+
+.restaurants__image {
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+@media screen and (min-width: 1020px) {
+  .restaurants__image {
+    height: 300px;
+  }
+}
+
+.restaurants__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+  margin-right: 5px;
+}
+.restaurants__info h4, .restaurants__info p {
+  margin: auto;
+}
+
+.restaurants__map {
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+.main-title, .menu-header h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.menu-header__title {
+  display: flex;
+  align-items: center;
+  margin: 0 30px 0 30px;
+}
+@media screen and (min-width: 1020px) {
+  .menu-header__title {
+    margin: 30px;
+  }
+}
+.menu-header__icon {
+  color: #6b6b6b;
+}
+.menu-header__image {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+@media screen and (min-width: 1020px) {
+  .menu-header__image {
+    height: 400px;
+  }
+}
+
 @media screen and (min-width: 1020px) {
   .desktop-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
   .desktop-header header {
     margin-left: 5%;
   }
+}
 
-  .maps {
-    background-color: white;
-    box-shadow: none;
-    margin-right: 5%;
+.footer {
+  background-color: #353535;
+  color: white;
+  padding: 5% 0 5% 0;
+}
+@media screen and (min-width: 1020px) {
+  .footer {
+    padding: 3% 0 3% 0;
+  }
+}
+.footer__title {
+  margin-left: 10%;
+  font-weight: lighter;
+  font-size: large;
+}
+@media screen and (min-width: 1020px) {
+  .footer__title {
+    margin-left: 5%;
+    margin-bottom: 3%;
     font-size: x-large;
-    padding: 2% 0 2% 0;
   }
-  .maps input {
-    background-color: white;
-    font-size: large;
-    width: 150px;
+}
+.footer__list {
+  padding: initial;
+  margin-left: 10%;
+  font-size: smaller;
+}
+@media screen and (min-width: 1020px) {
+  .footer__list {
+    margin-left: 5%;
+    font-size: larger;
   }
+}
+.footer__link {
+  color: white;
+}
+.footer__part {
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 1020px) {
+  .footer__part {
+    margin-bottom: 1%;
+  }
+}
+.footer__icon1 {
+  margin-right: 5%;
+}
+@media screen and (min-width: 1020px) {
+  .footer__icon1 {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .footer__icon1 {
+    margin-right: 20px;
+    width: 10px;
+  }
+}
+.footer__icon2 {
+  margin-right: 3%;
+}
+@media screen and (min-width: 1020px) {
+  .footer__icon2 {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .footer__icon2 {
+    width: 10px;
+  }
+}
 
+.about {
+  background-color: #f6f6f6;
+  padding: 10px 0 60px 0;
+}
+.about__content {
+  text-align: center;
+  margin: auto;
+  width: 280px;
+}
+@media screen and (min-width: 1020px) {
   .about__content {
     text-align: inherit;
     padding-left: 5%;
     width: auto;
   }
-  .about__content h2 {
+}
+.about h2 {
+  font-weight: bold;
+}
+@media screen and (min-width: 1020px) {
+  .about h2 {
     font-size: xx-large;
   }
-  .about__content p {
+}
+.about p {
+  color: #6b6b6b;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1020px) {
+  .about p {
     font-size: larger;
     padding-bottom: 1%;
   }
-  .about__content a {
+}
+@media screen and (min-width: 1020px) {
+  .about a {
     margin-top: 10px;
     font-size: larger;
   }
+}
 
+.functioning {
+  margin-bottom: 50px;
+}
+.functioning h3 {
+  margin-left: 30px;
+  font-weight: bold;
+}
+@media screen and (min-width: 1020px) {
   .functioning h3 {
     margin-left: 5%;
     margin-bottom: 3%;
     font-size: x-large;
-  }
-  .functioning ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  .functioning li {
-    padding-right: 3%;
-  }
-  .functioning p {
-    font-size: medium;
-  }
-
-  .restaurants {
-    padding: 30px 0 60px 0;
-  }
-
-  .restaurants__title {
-    margin-left: 5%;
-    font-size: x-large;
-    margin-bottom: 3%;
-  }
-
-  .desktop-restaurants {
-    display: flex;
-    justify-content: space-around;
-  }
-  .desktop-restaurants figure {
-    width: 450px;
-    margin-bottom: 10%;
-  }
-  .desktop-restaurants img {
-    height: 300px;
-  }
-
-  .footer {
-    padding: 3% 0 3% 0;
-  }
-  .footer h3 {
-    margin-left: 5%;
-    margin-bottom: 3%;
-    font-size: x-large;
-  }
-  .footer ul {
-    margin-left: 5%;
-    font-size: larger;
-  }
-  .footer li {
-    margin-bottom: 1%;
-  }
-  .footer__icon1 {
-    margin-right: 20px;
-  }
-  .footer__icon2 {
-    margin-right: 20px;
-  }
-
-  .menu-header__title {
-    margin: 30px;
-  }
-  .menu-header__image {
-    height: 400px;
-  }
-
-  .menu__title {
-    justify-content: flex-start;
-  }
-  .menu__name {
-    padding-right: 5%;
-    font-size: xx-large;
-  }
-
-  .meals__part {
-    padding-right: 50%;
-  }
-  .meals__title {
-    margin-right: 94%;
-  }
-
-  .about__btn__modif {
-    padding: 20px 90px;
-    font-weight: bold;
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) and (max-width: 1020px) {
   .functioning h3 {
     margin-left: 5%;
   }
+}
+.functioning__list {
+  padding-right: 40px;
+}
+@media screen and (min-width: 1020px) {
+  .functioning__list {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
   .functioning__list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .functioning__icon {
-    margin: auto;
-  }
-  .functioning__text {
-    padding: 5px 10px 5px 5px;
-  }
+}
 
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 30px 0 30px 0;
+}
+@media screen and (min-width: 1020px) {
+  .restaurants {
+    padding: 30px 0 60px 0;
+  }
+}
+.restaurants__title {
+  margin-left: 10%;
+  font-size: larger;
+  font-weight: bold;
+}
+@media screen and (min-width: 1020px) {
+  .restaurants__title {
+    margin-left: 5%;
+    font-size: x-large;
+    margin-bottom: 3%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
   .restaurants__title {
     margin-left: 5%;
     margin-bottom: 5%;
   }
+}
 
-  .footer__icon1 {
-    margin-right: 20px;
-    width: 10px;
+@media screen and (min-width: 1020px) {
+  .desktop-restaurants {
+    display: flex;
+    justify-content: space-around;
   }
+}
 
-  .footer__icon2 {
-    width: 10px;
+.menu {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0 0;
+  margin-top: -50px;
+  position: relative;
+  padding: 10px 0 60px 0;
+}
+.menu__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15% 0 5%;
+}
+@media screen and (min-width: 1020px) {
+  .menu__title {
+    justify-content: flex-start;
   }
+}
+.menu__name {
+  font-weight: lighter;
+}
+@media screen and (min-width: 1020px) {
+  .menu__name {
+    padding-right: 5%;
+    font-size: xx-large;
+  }
+}
+.menu__icon {
+  font-size: x-large;
+}
+.menu__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.meals {
+  padding: 0 5% 5% 5%;
+}
+.meals__part {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1020px) {
+  .meals__part {
+    padding-right: 50%;
+  }
+}
+.meals__title {
+  padding-bottom: 5px;
+  margin-right: 90%;
+}
+@media screen and (min-width: 1020px) {
+  .meals__title {
+    margin-right: 94%;
+  }
+}
+.meals__title-text {
+  color: #383838;
+  margin: auto;
+  font-weight: 100;
+  font-size: inherit;
 }
 
 /*# sourceMappingURL=style.css.map */
