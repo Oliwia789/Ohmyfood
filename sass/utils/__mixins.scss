@@ -1,0 +1,23 @@
+@mixin centered {
+    text-align: center;
+    margin: auto;
+}
+@mixin btn($padding) {
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(229,113,218,255),rgba(166,93,220,255));
+    padding: $padding;
+    color: white;
+}
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+@mixin image {
+    object-fit: cover;
+    width: 100%;
+}
+@mixin text-hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

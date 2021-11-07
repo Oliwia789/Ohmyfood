@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgba(53,53,53,255);
+    color: white;
+    padding: 5% 0 5% 0;
+    &__title {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: large;
+    }
+    &__list {
+        padding: initial;
+        margin-left: 10%;
+        font-size: smaller;
+    }
+    &__link {
+        color: white;
+    }
+    &__part {
+        margin-bottom: 5px;
+    }
+    &__icon1 {
+        margin-right: 5%;
+    }
+    &__icon2 {
+        margin-right: 3%;
+    }
+}

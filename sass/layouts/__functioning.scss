@@ -1,0 +1,34 @@
+.functioning {
+    margin-bottom: 50px;
+    h3 {
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    &__list {
+        padding-right: 40px;
+    }
+    &__part {
+        background-color: $light-grey;
+        @include flex-center;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px 2px $shadow;
+    }
+    &__number {
+        background-color: $primary;
+        color: white;
+        border-radius: 50%;
+        padding: 3px 6px;
+        margin: 0px 10px 0px -10px;
+        font-size: xx-small;
+    }
+    &__icon {
+        margin: 0 20px 0 5px;
+        color: darken($grey,50%);
+    }
+    &__text {
+        font-weight: bold;
+        font-size: small;
+        padding: 5px;
+    }
+}

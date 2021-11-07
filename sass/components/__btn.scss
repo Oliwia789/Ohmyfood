@@ -1,0 +1,6 @@
+.about__btn {
+    @include btn(10px 20px);
+}
+.menu__order-btn {
+    @include btn(10px 50px);
+}

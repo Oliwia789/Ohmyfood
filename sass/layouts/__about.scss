@@ -1,0 +1,15 @@
+.about {
+    background-color: $light-grey;
+    padding: 10px 0 60px 0;
+    &__content {
+        @include centered;
+        width: 280px;
+    }
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        color: darken($grey,50%);
+        margin-bottom: 40px;
+    }
+}
