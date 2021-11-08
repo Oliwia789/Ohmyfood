@@ -1,8 +1,14 @@
 .about__btn {
     @include btn(10px 20px);
+    &:hover {
+        @include btn-effect;
+    }
 }
 .menu__order-btn {
     @include btn(10px 50px);
+    &:hover {
+        @include btn-effect;
+    }
     @include desktop {
         padding: 20px 90px;
         font-weight: bold;
