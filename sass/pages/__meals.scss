@@ -24,3 +24,12 @@
         font-size: inherit;
     }
 }
+.starters {
+    animation: appear 1500ms ease-in-out;
+}
+.main-courses {
+    animation: appear 3000ms ease-in-out;
+}
+.desserts {
+    animation: appear 4500ms ease-in-out;
+}
