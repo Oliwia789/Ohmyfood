@@ -25,6 +25,10 @@ h1, .menu__name {
   font-family: "Shrikhand", cursive;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
 }
