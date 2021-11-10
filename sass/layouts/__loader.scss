@@ -12,10 +12,23 @@
     position: absolute;
     top: 40%;
     left: 20%;
+    @include tablet {
+      top: 35%;
+      left: 25%;
+    }
+    @include desktop {
+      left: 35%;
+    }
   }
   &__text span {
     font-family: Shrikhand, sans-serif;
     font-size: xx-large;
+    @include tablet {
+      font-size: xxx-large;
+    }
+    @include desktop {
+      font-size: xxx-large;
+    }
   }
   &__bar {
     width: 45%;
@@ -30,6 +43,13 @@
     border: 3px solid;
     padding: 15px;
     margin-top: 5%;
+    @include tablet {
+      margin-top: auto;
+    }
+    @include desktop {
+      width: 35%;
+      left: 30%;
+    }
   }
 }
 

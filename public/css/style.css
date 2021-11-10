@@ -430,9 +430,30 @@ a {
   top: 40%;
   left: 20%;
 }
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .loader__text {
+    top: 35%;
+    left: 25%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .loader__text {
+    left: 35%;
+  }
+}
 .loader__text span {
   font-family: Shrikhand, sans-serif;
   font-size: xx-large;
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .loader__text span {
+    font-size: xxx-large;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .loader__text span {
+    font-size: xxx-large;
+  }
 }
 .loader__bar {
   width: 45%;
@@ -447,6 +468,17 @@ a {
   border: 3px solid;
   padding: 15px;
   margin-top: 5%;
+}
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+  .loader__bar {
+    margin-top: auto;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .loader__bar {
+    width: 35%;
+    left: 30%;
+  }
 }
 
 .about {
