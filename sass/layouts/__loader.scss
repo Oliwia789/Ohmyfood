@@ -8,6 +8,7 @@
   z-index: 1;
   top: 0;
   animation: loader 1s ease-in-out 3s forwards;
+  pointer-events: none;
   &__text {
     position: absolute;
     top: 40%;
