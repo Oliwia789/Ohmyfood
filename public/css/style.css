@@ -33,6 +33,19 @@
     background-position: right;
   }
 }
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+@keyframes slide-out {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -189,7 +202,8 @@ a {
   box-shadow: 2px 2px 5px #cfcfcf;
   position: relative;
   cursor: pointer;
-  transition: padding-right 0.3s ease-in-out;
+  transition: padding-right 0.5s ease-in-out;
+  overflow: hidden;
 }
 .meals__card:hover {
   padding-right: 20%;
@@ -230,25 +244,20 @@ a {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  right: -50px;
-  opacity: 0;
-  transition: transform 0.4s ease-in-out;
   color: white;
   height: 100%;
   width: 20%;
+  right: -100%;
+  animation: slide-out 2s both;
 }
 
 .meals__card:hover .meals__icon {
-  opacity: 1;
-  transform: translate(-50px);
-}
-
-.check {
-  transition: transform 0.5s ease-in-out;
+  animation: slide 0.5s forwards;
 }
 
 .meals__card:hover .check {
   transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
 }
 
 .restaurants__card {

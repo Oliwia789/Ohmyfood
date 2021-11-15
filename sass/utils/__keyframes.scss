@@ -31,3 +31,11 @@
 @keyframes loader_position {
   0% {background-position: right}
 }
+@keyframes slide {
+  100% { right: 0;}
+}
+@keyframes slide-out 
+ {
+  0% { right:0;}
+  100% {right: -100%;}
+}

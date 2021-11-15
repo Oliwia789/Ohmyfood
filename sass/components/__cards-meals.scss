@@ -9,7 +9,8 @@
     box-shadow: 2px 2px 5px $shadow;
     position: relative;
     cursor: pointer;
-    transition: padding-right 0.3s ease-in-out;
+    transition: padding-right 0.5s ease-in-out;
+    overflow: hidden;
     &:hover {
         padding-right: 20%;
     }
@@ -42,20 +43,16 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    right: -50px;
-    opacity: 0;
-    transition: transform 0.4s ease-in-out;
     color: white;
     height: 100%;
     width: 20%;
+    right: -100%;
+    animation: slide-out 2s both;
 }
 .meals__card:hover .meals__icon {
-    opacity: 1;
-    transform: translate(-50px);
-}
-.check {
-    transition: transform 0.5s ease-in-out;
+    animation: slide 0.5s forwards;
 }
 .meals__card:hover .check {
     transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
 }
