@@ -10,9 +10,11 @@
         padding-bottom: 5px;
         margin-right: 90%;
         cursor: pointer;
-        &:hover {
+        border-bottom: solid 2px $tertiary;
+        margin-bottom: 5%;
+        /*&:hover  {
             border-bottom: solid 2px $tertiary;
-        }
+        }*/
         @include desktop {
             margin-right: 94%;
         }
@@ -25,11 +27,11 @@
     }
 }
 .starters {
-    animation: appear 1500ms ease-in-out;
+    animation: appear 1500ms ease-in-out, move-up 500ms forwards;
 }
 .main-courses {
-    animation: appear 3000ms ease-in-out;
+    animation: appear 3000ms ease-in-out, move-up 1000ms forwards;
 }
 .desserts {
-    animation: appear 4500ms ease-in-out;
+    animation: appear 4500ms ease-in-out, move-up 1500ms forwards;
 }
