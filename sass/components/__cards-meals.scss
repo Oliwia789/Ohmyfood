@@ -11,7 +11,7 @@
     cursor: pointer;
     transition: padding-right 0.5s ease-in-out;
     overflow: hidden;
-    &:hover {
+    &:hover{
         padding-right: 20%;
     }
 }
@@ -35,6 +35,9 @@
     font-size: smaller;
     color: darken($grey,70%);
     font-weight: bold;
+    @include desktop {
+        margin-bottom: 10px;
+    }
 }
 .meals__icon {
     @include flex-center;

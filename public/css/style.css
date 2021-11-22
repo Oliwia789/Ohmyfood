@@ -74,6 +74,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  margin: inherit;
+}
+
 .maps {
   background-color: #eaeaea;
   text-align: center;
@@ -242,6 +246,11 @@ a {
   font-size: smaller;
   color: #383838;
   font-weight: bold;
+}
+@media screen and (min-width: 1020px) {
+  .meals__card-price {
+    margin-bottom: 10px;
+  }
 }
 
 .meals__icon {
