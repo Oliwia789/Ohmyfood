@@ -1,6 +1,6 @@
 # Ohmyfood
 
-Projet 3 de la formation " Développeur web ". Le but est de dynamiser une page web avec des animations CSS.
+Le but du projetest de dynamiser une page web avec des animations CSS.
 Le site web mobile de Ohmyfood répertorie les menus de restaurants gastronomiques. Le concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.
 
 ## Identité graphique :
